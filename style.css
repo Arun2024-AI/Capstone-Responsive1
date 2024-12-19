@@ -1,0 +1,851 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFCA8;
+    overflow-x: hidden;
+}
+
+.page {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    min-height: 100vh;
+    padding: 0 24px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    display: flex;
+    width: 1344px;
+    height: 80px;
+    border-bottom: 1px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #FFFCA8;
+
+}
+.logo{
+    width: 162px;
+    height: 48px;
+    gap: 12px;
+}
+.text{
+    width: 162px;
+    height: 28px;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -4%;
+    text-align: left;
+
+}
+
+.pagelink{
+    width: 568px;
+    height: 32px;
+    gap: 32px;
+    display: flex;
+}
+
+.home{
+    width: 86px;
+    height: 32px;
+    font-family: Montagu Slab, serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #1B221B;
+
+
+}
+.project{
+    width: 130px;
+    height: 32px;
+    font-family: Montagu Slab, serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #1B221B;
+
+
+}
+.contact{
+    width: 128px;
+    height: 32px;
+    font-family: Montagu Slab, serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #1B221B;
+
+
+}
+.about{
+    width: 128px;
+    height: 32px;
+    font-family: Montagu Slab, serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #1B221B;
+
+
+}
+
+.divider{
+    display: flex;
+    width: 1404px;
+    border: 1px solid #1B221B;
+    align-items: center;
+}
+
+.container{
+    width: 1344px;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+.main-container{
+    width: 1344px;
+    height: auto;
+
+}
+.landing-page{
+    width: 1344px;
+    height: auto;
+    border: 1px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
+    background-color: #FFFCA8;
+
+}
+.crafting{
+    width: 1344px;
+    height: auto;
+    font-family: 'Montagu Slab', serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+}
+.mainphoto img{
+    width: 1344px;
+    height: auto;
+    gap: 0px;
+    border-radius: 28px;
+    border: 1px solid; 
+    border-top: 1px solid #1B221B;
+}
+
+.landing-page1{
+    width: 1344px;
+    height: auto;
+    border-bottom: 1px;
+}
+.row1{
+    width: 1344px;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #FFFCA8;
+    display: flex;
+}
+.project1{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo1 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text1{
+    width: 416px;
+    height: auto;
+
+}
+.pro1{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui1{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project2{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo2 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text2{
+    width: 416px;
+    height: auto;
+
+}
+.pro2{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui2{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project3{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo3 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text3{
+    width: 416px;
+    height: auto;
+
+}
+.pro3{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui3{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.row2{
+    width: 1344px;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #FFFCA8;
+    display: flex;
+}
+.project4{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo4 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text4{
+    width: 416px;
+    height: auto;
+
+}
+.pro4{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui4{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project5{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo5 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text5{
+    width: 416px;
+    height: auto;
+
+}
+.pro5{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui5{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project6{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo6 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text6{
+    width: 416px;
+    height: auto;
+
+}
+.pro6{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui6{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.row3{
+    width: 1344px;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #FFFCA8;
+    display: flex;
+}
+.project7{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo7 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text7{
+    width: 416px;
+    height: auto;
+
+}
+.pro7{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui7{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project8{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo8 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text8{
+    width: 416px;
+    height: auto;
+
+}
+.pro8{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui8{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+.project9{
+    width: 416px;
+    height: auto;
+    gap: 8px;
+
+}
+.photo9 img{
+    width: 416px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+    border-top: 1px solid #1B221B;
+}
+.text9{
+    width: 416px;
+    height: auto;
+
+}
+.pro9{
+    width: 416px;
+    height: auto;
+    font-family: 'Cutive', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B221B;
+
+}
+.ui9{
+    width: 416px;
+    height: auto;
+    font-weight: 400;
+    font-family: 'Cutive', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1B221B;
+}
+
+.landing-page2{
+    width: 1344px;
+    height: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #FFFCA8;
+    
+    
+
+}
+.spacer1{
+    width: 648px;
+    height: auto;
+    
+    
+
+}
+.spacer-text1{
+    width: 648px;
+    height: auto;
+    font-family: Cutive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    margin-left: 700px;
+}
+
+.landing-page3{
+    width: 1344px;
+    height: auto;
+    border-bottom: 1px;
+    padding-bottom: 48px;
+    background-color: #FFFCA8;
+
+}
+.content{
+    width: 1344px;
+    height: auto;
+    padding-top: 96px;
+    background-color: #FFFCA8;
+
+
+}
+
+
+.get{
+    width: 1344px;
+    height: auto;
+    font-family: 'Montagu Slab', serif; 
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+
+}
+.image{
+    background:#FFFCA8;
+
+}
+
+
+.image img{
+    width: 500px;
+    height: auto;
+    border: 1px;
+    margin-left: 400px;
+    
+    
+
+}
+.border{
+    width: 1500px;
+    border: 1px solid #1B221B;
+
+    
+}
+.about{
+    width: 1344px;
+    height: auto;
+    border-bottom: 1px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+.para{
+    width: 900px;
+    height: auto;
+    max-height: 900px;
+    font-family: 'Montagu Slab', serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-left: 200px;
+}
+.contactbox{
+    width: 1344px;
+    height: auto;
+    border-bottom: 1px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #FFFCA8;
+    display: flex;
+
+}
+.contact1{
+    width: 656px;
+    height: auto;
+
+}
+.contant11{
+    width: 656px;
+    height: auto;
+    font-family: 'Montagu Slab', serif;
+   font-size: 28px;
+   font-weight: 700;
+   line-height: 32px;
+   letter-spacing: -0.01em;
+   text-align: left;
+   color: #1B221B;
+
+}
+.contant12{
+    width: 640px;
+    height: auto;
+    font-family: 'Cutive', sans-serif; 
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.lastfooter{
+    width: 1344px;
+    height: auto;
+    border-top: 1px;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    gap: 24px;
+}
+.footer-container{
+    width: 1344px;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+
+}
+.a2023{
+    width: 254px;
+    height: auto;
+    gap: 32px;
+}
+
+.text-a2023{
+    width: 254px;
+    height: auto;
+    font-family: 'Montagu Slab', serif; 
+    font-size: 28px; 
+    font-weight: 600; 
+    line-height: 32px;
+    letter-spacing: -0.01em; 
+    text-align: left;
+}
+.bottomlarge{
+    width: 168px;
+    height: auto;
+    border-radius: 10px ;
+    padding: 12px 24px;
+    border: 1px solid #1B221B;
+    display: flex;
+    
+
+    
+}
+.last{
+    width: 120px;
+    height: auto;
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #1B221B;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .page, .header, .container, .main-container, .landing-page,
+    .landing-page1, .landing-page2, .landing-page3 {
+        width: 100%;
+    }
+
+    .divider {
+        width: 100%;
+    }
+
+    .crafting {
+        width: 100%;
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .mainphoto img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .row1, .row2, .row3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+        height: auto;
+    }
+
+    .project1, .project2, .project3,
+    .project4, .project5, .project6,
+    .project7, .project8, .project9 {
+        width: calc(50% - 32px);
+        height: auto;
+    }
+
+    [class^="photo"] img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    .pagelink {
+        width: 100%;
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .crafting {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .project1, .project2, .project3,
+    .project4, .project5, .project6,
+    .project7, .project8, .project9 {
+        width: 100%;
+    }
+
+    .spacer-text1 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .get {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .image img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .para {
+        width: 100%;
+        margin-left: 0;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .contactbox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact1, .contant11, .contant12 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page {
+        padding: 0 16px;
+    }
+
+    .pagelink {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .home, .project, .contact, .about {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .crafting {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .text-a2023 {
+        font-size: 20px;
+    }
+}
